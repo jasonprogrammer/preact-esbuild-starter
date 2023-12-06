@@ -12,6 +12,10 @@ another server serving the HTML.
 3. Open [http://localhost:8000](http://localhost:8000) to view the index.html
 file and the Preact components that are loaded into the page.
 
+NOTE: You'll want to do some cache-busting for your script files, otherwise the live reload will run but you won't see the changes.
+
+## License
+
 ## License
 
 MIT
