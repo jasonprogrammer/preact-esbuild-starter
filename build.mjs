@@ -1,6 +1,5 @@
 import * as esbuild from 'esbuild'
 import http from 'node:http'
-import httpProxy from 'http-proxy';
 
 let ctx = await esbuild.context({
   entryPoints: ['src/*.tsx'],
